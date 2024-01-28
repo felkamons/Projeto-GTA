@@ -53,6 +53,7 @@
     .btn-plataforma{
         margin-top: 15px;
         padding: 15px;
+        width: 70%;
     }
 
     .btn-comprar{
@@ -64,5 +65,15 @@
     main::after {
         background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.4) 100%, transparent 65%);
     }
+    .btn-plataforma{
+            width: 70%;
+        
+    }
     
+}
+
+@media( max-width: 1250px){
+    .btn-plataforma{
+width: 100%;
+    }
 }
